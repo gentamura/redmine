@@ -122,3 +122,4 @@ Dir.glob File.expand_path("../plugins/*/{Gemfile,PluginGemfile}", __FILE__) do |
 end
 
 gem 'rails_12factor', group: :production
+gem 'puma'
